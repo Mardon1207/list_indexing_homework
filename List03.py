@@ -7,4 +7,7 @@ def main(list1,list2):
     Returns:
         list: return answer
     """
-    return
+    return list1+list2
+list1=str(input())
+list2=str(input())
+print(main(list1,list2))
