@@ -6,4 +6,11 @@ def main(list_num):
     Returns:
         int: return answer
     """
-    return
+    n=len(list1)
+    if list1[0]>list1[n-1]:
+        s=list1[0]
+    else:
+        s=list1[n-1]
+    return s
+list1=[5,32,1,4,3]
+print(main(list1))
