@@ -6,4 +6,6 @@ def main(list1):
     Returns:
         list: return answer
     """
-    return
+    n=len(list1)
+    return list1[n-1]
+print(main(list1=[1,2,3,4,56,5]))
